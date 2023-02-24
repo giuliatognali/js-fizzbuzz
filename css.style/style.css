@@ -1,0 +1,54 @@
+/* 
+Reset
+ */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-color: #c09af9;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.div-fizz,
+.div-buzz,
+.div-fizzbuzz,
+.div-number{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 20px;
+}
+.div-fizz{
+    background-color: aqua;
+    
+}
+.div-buzz{
+    background-color: #155e8b;
+}
+.div-fizzbuzz{
+    background-color: rgb(49, 49, 255);
+    border: 3px dashed black;
+}
+.div-number{
+    background-color: aquamarine;
+}
